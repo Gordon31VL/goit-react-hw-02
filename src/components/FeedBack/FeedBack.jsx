@@ -1,11 +1,4 @@
 export default function Feedback({ feedBack, positiveFeedback, totalFeedback }) {
-    if (totalFeedback === 0) {
-        return (
-            <>
-                <p>No feedback yet</p>           
-            </>
-        )
-    }
         return (
             <div>
             <p>Good: {feedBack.good}</p>
